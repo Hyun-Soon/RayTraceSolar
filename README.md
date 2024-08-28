@@ -77,7 +77,7 @@ You can create your own map with the supported objects below. Map's extension mu
 |`star`|Star|name, axis, radius, color, [texturemap], [bumpmap]|
 |`planet`|Planet|name, primary star(planet) name, axis, radius, orbit radius, period, color, [texturemap][bumpmap]|
 
-    ⚠️ If you don't want to use the optional argument on star and planet objects, you must specify 'none'
+⚠️ If you don't want to use the optional argument on star and planet objects, you must specify 'none'
 
 You can use these names for star and planets.
 
@@ -85,7 +85,7 @@ Star : `SUN`
 
 Planet : `MERC`,`VENUS`, `EARTH`, `MARS`, `JUPITER`, `SATURN`, `MOON` 
 
-    ⚠️ Specify star and planet's name in the map if you want to use `0`~`9` keys below.
+⚠️ Specify star and planet's name in the map if you want to use `0`~`9` keys below.
 
 ## 🎮 Controls
 
