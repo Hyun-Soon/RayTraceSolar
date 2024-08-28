@@ -75,7 +75,7 @@ You can create your own map with the supported objects below. Map's extension mu
 |`cy`|Cylinder|position, normal vector, diameter, height, color|
 |`lb`|LightBulb|position, diameter, color, [texturemap], [bumpmap]|
 |`star`|Star|name, axis, radius, color, [texturemap], [bumpmap]|
-|`planet`|Planet|name, primary star(planet) name, axis, radius, orbit radius, period, color, [texturemap][bumpmap]|
+|`planet`|Planet|name, primary star(planet) name, axis, radius, orbit radius, period, color, [texturemap], [bumpmap]|
 
 ⚠️ If you don't want to use the optional argument on star and planet objects, you must specify 'none'
 
