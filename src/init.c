@@ -37,7 +37,7 @@ void	init(t_param *par, char *file_name)
 	char	*extension_ptr;
 
 	extension_ptr = ft_strrchr(file_name, '.');
-	if (ft_strcmp(extension_ptr, ".rt"))
+	if (extension_ptr == NULL || ft_strcmp(extension_ptr, ".rt"))
 		ft_perror("not a valid file extension!\n", 255);
 	par->fd = open(file_name, O_RDONLY);
 	if (par->fd < 0)
