@@ -34,10 +34,10 @@ void	init_image(t_param *par, t_bool flag)
 
 void	init(t_param *par, char *file_name)
 {
-	char	*idx;
+	char	*extension_ptr;
 
-	idx = ft_strrchr(file_name, '.');
-	if (ft_strcmp(idx, ".rt"))
+	extension_ptr = ft_strrchr(file_name, '.');
+	if (ft_strcmp(extension_ptr, ".rt"))
 		ft_perror("not a valid file extension!\n", 255);
 	par->fd = open(file_name, O_RDONLY);
 	if (par->fd < 0)
